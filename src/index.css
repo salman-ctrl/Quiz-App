@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -66,3 +67,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+=======
+@import "tailwindcss";
+
+.list-alpha {
+    list-style: upper-alpha;
+}
+
+@layer components {
+    .list-alpha li {
+        @apply flex items-center h-16 pl-4 border border-[#68686868] rounded-md mb-5 text-xl cursor-pointer transition-all transform duration-400 ease-in-out hover:bg-gray-300 hover:scale-103;
+    }
+}
+>>>>>>> 1b7b576 (edit dikit)
